@@ -1,0 +1,272 @@
+html,
+body {
+  margin: 0;
+  font-family: "poppins", sans-serif;
+}
+
+body {
+  background-color: #ffd100;
+  display: flex;
+  justify-content: center;
+}
+
+.wrapper {
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  background-color: aquamarine;
+}
+
+.main {
+  display: flex;
+  flex-flow: column;
+  width: 100%;
+}
+
+.menu {
+  background-color: #f7f3e6;
+  padding: 0;
+  display: flex;
+  border: 1px solid #000;
+  list-style: none;
+}
+
+.menu li {
+  padding: 20px;
+  list-style: none;
+}
+
+.menu li:last-child {
+  margin-right: 0; /* Remove margem à direita no último item */
+}
+
+.menu a {
+  color: #000000; /* cor do link */
+  text-decoration: none; /* remove sublinhado */
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.menu a:hover {
+  color: #0056b3; /* cor ao passar o mouse */
+}
+
+.menu a:active {
+  color: #002984; /* cor ao clicar */
+}
+
+.header {
+  display: flex; /* Garante um layout flexível */
+  justify-content: center; /* Centraliza o conteúdo horizontalmente */
+  align-items: center; /* Centraliza o conteúdo verticalmente */
+  background-color: #f2f2f2;
+  width: 100%; /* Garante que ocupe toda a largura */
+  height: 300px; /* Define a altura desejada */
+  min-height: 150px; /* Garante uma altura mínima */
+  border: 1px solid #000;
+  border-left: none;
+  border-bottom: none;
+}
+
+.header img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.content {
+  background-color: #f7f3e6;
+  min-height: 300px;
+  padding: 20px;
+  border: 1px solid #000;
+  border-left: none;
+  border-bottom: none;
+  justify-items: center;
+  display: grid;
+  align-content: center;
+  color: black;
+}
+
+.titulo-principal {
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.introducao {
+  font-size: 19px;
+  line-height: 26px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.subtitulo-1 {
+  font-size: 32px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+.lista-servicos {
+  font-size: 19px;
+  line-height: 29px;
+  margin-left: 20px;
+}
+
+.subtitulo-2 {
+  font-size: 32px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.texto-ambiente {
+  font-size: 19px;
+  line-height: 26px;
+  margin-bottom: 30px;
+}
+
+.subtitulo-3 {
+  font-size: 32px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.lista-diferenciais {
+  font-size: 19px;
+  line-height: 29px;
+  margin-left: 20px;
+}
+
+.subtitulo-4 {
+  font-size: 32px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.chamada-final {
+  font-size: 19px;
+  line-height: 26px;
+  margin-bottom: 30px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  font-size: 16px;
+}
+
+table th,
+table td {
+  border: 1px solid #000;
+  padding: 10px;
+  text-align: center;
+}
+
+table th {
+  background-color: #ffd100;
+  color: #000;
+  font-weight: bold;
+}
+
+table tr:nth-child(even) {
+  background-color: #f7f3e6;
+}
+
+table tr:hover {
+  background-color: #e0e0e0;
+}
+
+.footer {
+  background-color: #a70101;
+  min-height: 150px;
+  border: 1px solid #000;
+  border-left: none;
+  border-bottom: none;
+}
+
+.footer ul {
+  align-items: center;
+  justify-content: space-around;
+  display: flex;
+  list-style: none;
+  color: #f2f2f2;
+}
+
+.footer h3 {
+  justify-content: center;
+  display: flex;
+  color: #f2f2f2;
+}
+
+.material-icons {
+  font-size: 24px;
+  color: #25d366;
+  text-decoration: none;
+}
+.footer a {
+  text-decoration: none;
+  color: #f2f2f2;
+}
+
+.form-contato {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  width: 500px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #ffd100;
+}
+
+.form-contato label {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.form-contato input,
+.form-contato textarea {
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: auto;
+}
+
+.botoes {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn-enviar {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-limpar {
+  background-color: #f44336;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+textarea {
+  height: 150px; 
+  resize: none;
+
+button:hover {
+  opacity: 0.8;
+}
+
+address {
+  margin: 20px;
+}
+
+iframe {
+  border-radius: 10%;
+}
